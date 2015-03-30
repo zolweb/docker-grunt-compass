@@ -9,7 +9,7 @@ RUN curl -sL https://deb.nodesource.com/setup | bash - && \
 
 # Install npm, yeoman and generators
 RUN npm install -g npm@latest && \
-    npm install -g bower grunt-cli && \
+    npm install -g bower grunt-cli
 
 # Install Ruby & Compass
 RUN apt-get -yq install ruby && \
